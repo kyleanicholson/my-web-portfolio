@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<title>Contact Form Submission</title>
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap" rel="stylesheet"> 
+		<!-- Scripts -->
+		<script src="https://kit.fontawesome.com/1529cee222.js" crossorigin="anonymous"></script>
+		
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class = "menu">
+					<li class="logo"> <a href="index.html">
+						KN Tech</a>
+					</li>
+					<li class = "item"> <a href="index.html">Home </a></li>
+
+					<li class = "item has-submenu">
+						 <a tabindex="0"> Projects </a>
+						 <ul class="submenu">
+							<li class="subitem"><a href="#">Python</a></li>
+							<li class="subitem"><a href="#">Web Development</a></li>
+							<li class="subitem"><a href="#">Consulting</a></li>
+						 </ul>
+					</li>
+					<li class = "item"> <a href="#">Blog </a></li>
+					<li class = "item"> <a href="contact.html">Contact</a></li>
+					<li class="item button"><a href="#">Log In</a></li>
+    				<li class="item button secondary"><a href="#">Sign Up</a></li>
+					<li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Contact Form</h1>
+		<section id="contactForm">
+			<form action = "https://formsubmit.co/kyle.nicholson67@gmail.com" method="POST">
+				<input type="text" name="Name" placeholder="Full Name" required>
+				<input type="email" name="Email" placeholder="Email" required>
+				<textarea name="Message" placeholder = "Message" required></textarea>
+				<button type="submit">Send</button>
+			</form>				 
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
+ 

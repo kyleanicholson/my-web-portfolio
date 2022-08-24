@@ -1,0 +1,11 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Michroma
+font link: https://fonts.google.com/specimen/Michroma
+font author: Vernon Adams
+font author site: http://sansoxygen.com/
+
+
+{"bg":"#9EC1A2","icon":"#01384A","font":"#FFFFFF","slogan":"#ffffff"}
+      
